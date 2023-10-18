@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-xrrj
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/stonesoup_perfscale/ci1t-830-0035-tenant/ci1t-830-0035-app/devfile-sample-xrrj@sha256:00dd0bfdd90aa31b437a07ba93c24649e98bf4467ca03f19ae9303cea928be1c
+        name: my-nodejs
+        resources: {}
+status: {}
